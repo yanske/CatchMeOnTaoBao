@@ -1,23 +1,24 @@
 document.addEventListener('DOMContentLoaded', function() {
+  const button = document.getElementById('changeColor');
   chrome.storage.sync.get('changeColor', function(items){
     if(items.changeColor == true){
-      document.getElementById('changeColor').setAttribute("style","background-color: #ffffff;");
-      // document.getElementById('changeColor_check').setAttribute("style","display: inline;");
+      button.setAttribute("style","background-color: #ffffff;");
+    } else {
+      button.setAttribute("style","background-color:	#f0f0f0;");
+      button.innerHTML = "Disabled";
     }
   });
 
-  document.getElementById('changeColor').addEventListener('click', function(){
+  button.addEventListener('click', function(){
     var active = false;
     chrome.storage.sync.get('changeColor', function(items){
       if(items.changeColor == true){
-        document.getElementById('changeColor').setAttribute("style","background-color:	#f0f0f0;");
-        document.getElementById('changeColor').innerHTML = "Disabled";
-        // document.getElementById('changeColor_check').setAttribute("style","display: None;");
+        button.setAttribute("style","background-color:	#f0f0f0;");
+        button.innerHTML = "Disabled";
         chrome.storage.sync.set({'changeColor': false}, function() {});
       } else {
-        document.getElementById('changeColor').setAttribute("style","background-color: #ffffff;");
-        document.getElementById('changeColor').innerHTML = "Enabled";
-        // document.getElementById('changeColor_check').setAttribute("style","display: inline;");
+        button.setAttribute("style","background-color: #ffffff;");
+        button.innerHTML = "Enabled";
         chrome.storage.sync.set({'changeColor': true}, function() {});
       }
     });

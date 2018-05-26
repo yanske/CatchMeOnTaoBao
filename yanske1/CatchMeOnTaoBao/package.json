@@ -1,13 +1,13 @@
 {
   "name": "CatchMeOnTaoBao",
-  "version": "0.0.0",
+  "version": "0.1.2",
   "description": "",
   "author": "yanske1 <yansongke1@gmail.com>",
   "main": "functions/__main__.js",
   "dependencies": {
     "google-translate-api": "^2.3.0"
   },
-  "private": true,
+  "private": false,
   "stdlib": {
     "build": "faaslang",
     "name": "yanske1/CatchMeOnTaoBao",

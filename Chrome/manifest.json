@@ -1,0 +1,14 @@
+{
+  "name": "CatchMeOnTaoBao",
+  "version": "1.0",
+  "description": "Find knockoffs of expensive products",
+  "permissions": ["storage"],
+  "background": {
+    "scripts": ["background/background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_popup": "public/popup.html"
+  },
+  "manifest_version": 2
+}

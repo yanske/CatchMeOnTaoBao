@@ -1,7 +1,12 @@
 // Returns true if it is on a page where we can transform the buy link
 function onProductPage(currentLink) {
-  const product = "/products/"
-  return (currentLink.indexOf(product) >= 0)
+  const product = "/products/";
+  return (currentLink.indexOf(product) >= 0);
+}
+
+function onTaoBao(currentLink) {
+  const taobao = "taobao.com/search?q=";
+  return (currentLink.indexOf(taobao) >= 0);
 }
 
 function parseProductName(currentLink) {

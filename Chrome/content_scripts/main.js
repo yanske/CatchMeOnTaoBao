@@ -14,5 +14,10 @@ function onLoad() {
     }
 
     transformToTaoBao(productName);
+  } else if (onTaoBao(currentLink)) {
+    chrome.storage.sync.get('taobao', function(items) {
+      chrome.storage.sync.set({ 'taobao': true });
+      clickOnTaoBaoProduct();
+    });
   }
 }

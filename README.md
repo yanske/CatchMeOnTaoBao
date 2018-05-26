@@ -8,8 +8,8 @@ Catch Me on TaoBao is a Chrome extension that helps you find luxury good for les
 Catch Me on TaoBao is JavaScript the whole stack down. It is a Chrome extension that is able to detect if you are on a product site, and is able to make a back end call to our NodeJS API developed with StdLib to help find a corresponding TaoBao product.
 
 
-<img src="ReadMeImgs/Kanye.png" width="300" />
-<img src="ReadMeImgs/taobaoified.png" width="300" />
+<img src="ReadMeImgs/Kanye.png" width="300"  style="display: inline;"/>
+<img src="ReadMeImgs/taobaoified.png" width="300" style="display: inline"/>
 
 
 ### Getting Started

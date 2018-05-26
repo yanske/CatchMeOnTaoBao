@@ -1,8 +1,9 @@
 # Catch Me On TaoBao
 
-![Alt text](ReadMeImgs/taobao1.png =250x)
-![Alt text](ReadMeImgs/Kanye.png =500x)
-![Alt text](ReadMeImgs/taobaoified.png =500x)
+<img src="ReadMeImgs/taobao1.png" width="200" />
+<img src="ReadMeImgs/Kanye.png" width="400" />
+<img src="ReadMeImgs/taobaoified.png" width="400" />
+
 
 ### Getting Started
 

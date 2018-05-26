@@ -4,9 +4,11 @@
 */
 
 module.exports = (name = 'Gucci Belt', context, callback) => {
+  // Hack for NodeJS dependencies on non local environments
   if (context.service.environment !== 'local') {
     process.env.HOME = '/tmp';
   }
+
   const translate = require('google-translate-api');
   const https = require('https');
 

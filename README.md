@@ -1,8 +1,15 @@
 # Catch Me On TaoBao
 
 <img src="ReadMeImgs/taobao1.png" width="200" />
-<img src="ReadMeImgs/Kanye.png" width="400" />
-<img src="ReadMeImgs/taobaoified.png" width="400" />
+
+
+Catch Me on TaoBao is a Chrome extension that helps you find luxury good for less. When you go on a site like https://kanyeweststores.com or https://www.kyliecosmetics.com (or any Shopify based e-commerce store), with Catch Me on TaoBao, the next time you try to "Add to Cart", we'll take you to a similar product on TaoBao (A premier knock off site) instead.
+
+Catch Me on TaoBao is JavaScript the whole stack down. It is a Chrome extension that is able to detect if you are on a product site, and is able to make a back end call to our NodeJS API developed with StdLib to help find a corresponding TaoBao product.
+
+
+<img src="ReadMeImgs/Kanye.png" width="300" />
+<img src="ReadMeImgs/taobaoified.png" width="300" />
 
 
 ### Getting Started
